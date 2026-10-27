@@ -1,36 +1,28 @@
-# GradArchives
-Coleção de alguns algoritmos que implementei durante a graduação.
-Várias linguagens.
-Tentarei ser o mais organizado possível.
+# Graduation Archives
+Coleção de alguns projetos que implementei durante a graduação de Ciência da Computação pela Universidade Federal do Maranhão.
 
-## Assembly
-Os algoritmos estão divididos entre cadeiras que cursei.
+Neste repositório não constam todos os projetos criados durante o curso, apenas uma seleção feita à época. Entretanto, a esta altura, quaisquer outros projetos já foram perdidos em HDs antigos. Os que aqui constam estão separados por linguagens e disciplinas às quais foram apresentados, tendo sido aqui organizados logo após a graduação e, francamente, não lembro mais o que alguns destes fazem ou a lógica por trás da organização.
 
-Pra ser sincero não tenho certeza do que alguns destes fazem. Uns são bem descritivos e outros fiz um péssimo trabalho em organizar.
+- **Assembly**
+  - **Arquitetura de Computadores**
+    - **Adição**: Adição de dois inteiros.
+    - **BEER**: Abre a disc tray (RIP) do computador.
+    - **Subtração**: Subtração de dois inteiros.
+  - **Circuitos Digitais**
+    - **Multiplicação de Matrizes RISC (MPLab)**
+    - **Multiplicação de Matrizes CISC (THRSIM)**
+  - **Microprocessadores**
+    - **Q1**
+    - ...
+    - **Q5**
+- **Misc. Projects**
+  - **Detecção de Anomalias em Sons de Auscultação Pulmonar**: projeto apresentado à disciplina "Sistemas Inteligentes" onde usa-se Python e WEKA para detectar anomalias em sons de auscultação pulmonar.
+  - **KNN**: projeto apresentado à disciplina "Sistemas Inteligentes" onde implementa-se o método K-Nearest Neighbors de classificação, em Python.
+  - **MLP**: projeto apresentado à disciplina "Sistemas Inteligentes" onde implementa-se Multilayer Perceptron Neural Networks para solucionar os problemas "OR" e "XOR", em Python.
+  - **Paint for Web**: projeto apresentado à disciplina "Computação Gráfica" onde implementa-se uma ferramenta similar ao MS Paint utilizando Canvas, HTML, CSS e Javascript.
+  - **Ray Tracing**: projeto apresentado à disciplina "Computação Gráfica" onde implementa-se a geração de imagens utilizando a técnica de Ray Tracing em C++.
+- **Python**
+  - `polyInterp.py`: contém alguns Métodos de Interpolação Polar (Método de Lagrange, Método de Newton, Método dos Mínimos Quadrados).
 
-Sinto muito. Organizarei esta pasta por inteiro quando tiver mais tempo, prometo.
-
-## Python
-"polyInterp.py": contém alguns Métodos de Interpolação Polar.
-- Método de Lagrange.
-- Método de Newton.
-- Método dos Mínimos Quadrados.
-
-## Misc. Projects
-"Detecção de Anomalias em Sons de Auscultação Pulmonar": como o nome sugere, avaliamos sons de auscultação pulmonar com o objetivo de detectar anomalias. Esta implementação foi referente à avaliação final da disciplina de Sistemas Inteligentes.
-- Python e WEKA.
-
-"KNN": implementação e teste do método de K-Nearest Neighbors. Esta implementação foi atividade da disciplina de Sistemas Inteligentes.
-- Python.
-
-"MLP": implementação e teste de uma Multilayer Perceptron Neural Network para resolução dos problemas de "OR" e "XOR". Esta implementação foi atividade da disciplina de Sistemas Inteligentes.
-- Python.
-
-"Paint for Web": a atividade consistia de criar uma ferramenta similar ao Paint (MS) utilizando Canvas. Esta implementação foi referente à primeira avaliação da disciplina de Computação Gráfica.
-- HTML5, CSS e Javascript.
-
-"Ray Tracing": a atividade, como o nome sugere, consistia de gerar uma cena com Ray Tracing. Esta implementação foi referente à avaliação final da disciplina de Computação Gráfica.
-- C/C++
-
-# Considerações finais
-Alguns destes códigos estão uma bagunça e eu pretendo revisitar/organizar eles com o tempo. Mas estes são alguns dos que fiz durante a graduação e tê-los aqui me parece uma boa ideia. Todos funcionam e fazem o que foram feitos para fazer, só queria ter sido mais zeloso com documentação/organização.
+### Considerações finais
+Todos os códigos aqui dispostos funcionam e cumprem a proposta apresentadas à época, realizando as tarefas que se propuseram a fazer de maneira satisfatória. Alguns carecem de melhor documentação/organização porém, por este repositório se tratar de um arquivamento de uma época longínqua, opto por mantê-los em seu estado atual. Se um dia decidir iterar sobre algum destes projetos novamente, isto será feito em um outro projeto.
